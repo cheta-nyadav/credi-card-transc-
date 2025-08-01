@@ -14,13 +14,4 @@ K-means clustering to segment customers into VIP, High-Risk, and Low-Risk groups
 | High-Risk        | High utilization, low limits            |
 | Low-Risk         | Low utilization, moderate spending      |
 
-## Code Example
-```python
-from sklearn.cluster import KMeans
-kmeans = KMeans(n_clusters=3)
-df['Cluster'] = kmeans.fit_predict(scaled_data)
-```
-
-## Requirements
-- Python 3.8+
-- Libraries: pandas, scikit-learn, plotly
+*plus a power bi dashboard attached
